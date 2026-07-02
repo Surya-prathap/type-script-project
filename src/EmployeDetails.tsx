@@ -13,10 +13,11 @@ type EmployeeProps = {
 function EmployeDetails({emp}: EmployeeProps) {
   return (
     <>
-      <h1>Employee Name: {emp.name}</h1>
+      <h2>Employee Name: {emp.name}</h2>
       <h2>Employee Id: {emp.id}</h2>
       <h2>Salary: {emp.salary}</h2>
-      <h3>Department: {emp.department}</h3>
+      <h2>Department: {emp.department}</h2>
+      <hr />
     </>
   )
 }
